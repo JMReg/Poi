@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Poi app</string>
+
+    <string name="poi_list_toolbar_title">Main screen</string>
+    <string name="poi_list_toolbar_subtitle">You can see a list of points of interest</string>
+    <string name="poi_list_filter_hint">Enter a text to filter</string>
+
+    <string name="poi_detail_toolbar_title">Detail screen</string>
+    <string name="content_description_image">Image</string>
+
+    <string name="poi_list_empty_text">No data.</string>
+    <string name="poi_list_empty_with_filter_text">No data with that filter.</string>
+
+    <string name="exception_poi_call_toast">A problem has occurred.</string>
+    <string name="exception_poi_call_message">Something has gone wrong. \nCheck your connection.</string>
+    <string name="error_poi_call_toast">Error data.</string>
+    <string name="error_poi_call_message">A problem has occurred. \nTry it again later.</string>
+    <string name="poi_list_empty_button_text">Retry</string>
+
+</resources>

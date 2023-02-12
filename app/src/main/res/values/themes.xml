@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="Theme.PoiApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_background</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/color_main_text</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+    </style>
+
+    <style name="Theme.PoiApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PoiApp.AppBarOverlay" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Theme.PoiApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/poi_list_row_horizontal_margin"
+    android:layout_marginTop="@dimen/poi_list_row_vertical_margin"
+    android:layout_marginEnd="@dimen/poi_list_row_horizontal_margin"
+    android:layout_marginBottom="@dimen/poi_list_row_vertical_margin"
+    android:elevation="@dimen/poi_list_row_elevation"
+    app:cardBackgroundColor="@color/color_card_background"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/poi_list_row_height">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/poi_list_image_width"
+            android:layout_height="0dp"
+            android:contentDescription="@string/content_description_image"
+            android:padding="@dimen/poi_list_image_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_launcher_background" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/poi_list_title_margin_start"
+            android:textColor="@color/color_main_text"
+            android:textSize="@dimen/poi_list_title_size"
+            app:layout_constraintBottom_toTopOf="@+id/tv_geolocation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Poi title example" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_geolocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_main_text"
+            android:textSize="@dimen/poi_list_geolocation_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            tools:text="Geolocation example" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

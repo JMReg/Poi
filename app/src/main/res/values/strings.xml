@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Poi app</string>
+
+    <string name="poi_list_toolbar_title">Página principal</string>
+    <string name="poi_list_toolbar_subtitle">Puede ver un listado de puntos de interés</string>
+    <string name="poi_list_filter_hint">Introduce un texto para filtrar</string>
+
+    <string name="poi_detail_toolbar_title">Página de detalle</string>
+    <string name="content_description_image">Imagen</string>
+
+    <string name="poi_list_empty_text">No hay datos.</string>
+    <string name="poi_list_empty_with_filter_text">No hay datos con ese filtro.</string>
+
+    <string name="exception_poi_call_toast">Se ha producido un problema.</string>
+    <string name="exception_poi_call_message">Algo ha salido mal. \nCompruebe su conexión.</string>
+    <string name="error_poi_call_toast">Error de datos.</string>
+    <string name="error_poi_call_message">Se ha producido un error. \nInténtelo de nuevo más tarde.</string>
+    <string name="poi_list_empty_button_text">Reintentar</string>
+
+</resources>
